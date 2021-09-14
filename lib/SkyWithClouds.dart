@@ -2,12 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:clouds/SingleCloud.dart';
 
-class SkyWithClouds extends StatefulWidget {
-  @override
-  _TestAnimationsState createState() => _TestAnimationsState();
-}
-
-class _TestAnimationsState extends State<SkyWithClouds> {
+class SkyWithClouds extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,7 +14,7 @@ class _TestAnimationsState extends State<SkyWithClouds> {
               const CircleAvatar(
                 backgroundColor: Colors.white,
                 child: Text("ATMOSPHERE HUSSEIN",style: TextStyle(
-                    fontSize: 23,fontWeight: FontWeight.w900,color: Color(0xff99ccff),height: 2
+                  fontSize: 23,fontWeight: FontWeight.w900,color: Color(0xff99ccff),
                 ),textAlign: TextAlign.center,),
                 radius:90,
               ),
